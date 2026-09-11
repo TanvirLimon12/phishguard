@@ -1,0 +1,38 @@
+# Models (large files — download separately)
+models/
+
+# Runtime data
+screenshots/
+threats/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+
+# HuggingFace cache
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets — NEVER commit your HF token
+*.env
+secrets.py
